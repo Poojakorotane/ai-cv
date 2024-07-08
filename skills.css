@@ -1,0 +1,42 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-image :url("/Users/pooja/Desktop/CV.css/skill 2.jpg");
+    color: rgb(12, 15, 13) ;
+    display: left;
+
+}
+/* Setting for contant include in skills wrapper  */
+.skills-wrapper{
+    display:left;
+    padding: 100px;
+    justify-content: space-between;
+    align-items:left;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+/* nav-link */
+.nav-link{
+   
+    align-items:end;
+    color:rgb(13, 12, 11);
+    border: 2px solid black(230, 53, 9); /* Adds a 3px solid purple border */
+}
+    /* add the colour in nav link */
+.nav-link a {
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(18, 16, 16);
+    text-decoration:none;
+    transition: 0.5s;
+    transform: matrix3d();
+    margin: 10px;
+    display: flexbox;
+}
+/* add hover on nav-link  */
+.nav-link a:hover
+{
+    color:rgb(194, 22, 22);
+    letter-spacing: 2px;
+}
+

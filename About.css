@@ -1,0 +1,50 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-image :url("./pngtree-plant-flowers-background-design-picture-image_975811.jpg");
+    color: rgb(12, 15, 13) ;
+    display: left;
+    align-items: flex-end; /* Align items at the bottom */
+
+}
+/* Setting for contant include in skills wrapper  */
+.About-wrapper {
+    display: flex;
+    align-items: center;
+    margin-right: 10px; /* Adds space between the icon and the text */
+
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100%;
+    color:black;
+ 
+}
+
+/* nav-link */
+.nav-link{
+    justify-content: space-between; /* Distribute space evenly */
+    align-items: flex-end; /* Align items at the bottom */
+    align-items:end;
+    color:rgb(13, 12, 11);
+
+}
+    /* add the colour in nav link */
+.nav-link a {
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(18, 16, 16);
+    text-decoration:none;
+    transition: 0.5s;
+    transform: matrix3d();
+    margin: 10px;
+    display: flexbox;
+    justify-content:space-between;
+}
+/* add hover on nav-link  */
+.nav-link a:hover
+{
+    color:green;
+    letter-spacing: 2px;
+   
+}
+

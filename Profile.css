@@ -1,0 +1,50 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.0;
+    background-image :url("/Users/pooja/Desktop/CV.css/pexels-catiamatos.jpg");
+    color:white;
+    display: left;
+    align-items: flex-end; /* Align items at the bottom */
+
+}
+/* Setting for contant include in skills wrapper  */
+.Profile-wrapper{
+    display:left;
+    align-items:left;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    justify-content: space-around;
+
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100%;
+    color:white;
+   
+}
+/* nav-link */
+.nav-link{
+    justify-content: space-between; /* Distribute space evenly */
+    align-items:end;
+    color:white;
+}
+    /* add the colour in nav link */
+.nav-link a {
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+    text-decoration:none;
+    transition: 0.5s;
+    transform: matrix3d();
+    margin: 10px;
+    justify-content:space-between;
+    border: 2px solid white (230, 53, 9); /* Adds a 3px solid purple border */
+}
+/* add hover on nav-link  */
+.nav-link a:hover
+{
+    color:green;
+    letter-spacing: 2px;
+}
+

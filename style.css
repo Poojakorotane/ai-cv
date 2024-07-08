@@ -1,0 +1,122 @@
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    line-height: 1.2;
+    margin: 5px;
+    padding: 10px;
+    background-color:white;
+    color: rgb(232, 61, 18) ;
+}
+/* background  */
+header img.profile-pic {
+    width: 200px; /* Sets the width of the image to 100 pixels */
+    height: 200px; /* Maintains the aspect ratio */
+    border-radius: 5%; /* Makes the image round */
+    margin-bottom: 10px; /* Adds space below the image */
+    nav-left:left;
+    text-align:  center  ;
+    display: center;
+    align-content: center;
+    border: 10px solid rgb(230, 53, 9); /* Adds a 3px solid purple border */
+
+}
+/* changes of profilr pic  */
+.navigation-wrapper{
+    display:flex;
+    height: 100px;
+    background-image :url("/Users/pooja/Desktop/CV.css/—Pngtree—red flowing background brown wallpaper_2071900.jpg");
+    padding: 100px;
+    border: 0cqmax;
+    justify-content: space-between;
+    align-items:center;
+    color :rgb(232, 61, 18);
+}
+/* nav-link */
+.nav-link{
+    justify-content: space-between;
+    align-items:end;
+    color:rgb(230, 53, 9);
+    border: 1px solid rgb(230, 53, 9); /* Adds a 3px solid purple border */
+}
+    /* add the colour in nav link */
+.nav-link a {
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(232,61,18);
+    text-decoration: none;
+    transition: 0.5s;
+    transform: matrix3d();
+    margin: 10px;
+}
+/* add hover on nav-link  */
+.nav-link a:hover
+{
+    color:white;
+    letter-spacing: 2px;
+}
+/* Flex box container */
+.contact-info {
+    color: rgb(232, 61, 18);
+}
+h1 {
+    font-family: verdana;
+    font-size: 300%;
+    text-align:left ;
+  }
+.contact-info a:hover {
+    color: rgb(232, 215, 210); /* Change color on hover */
+    letter-spacing: 3px; /* Add letter spacing */
+    text-align: left; /* Align text to the left */
+}
+.home_about{
+    display:flex;
+    height: 200px;
+    background-image :url("/Users/pooja/Desktop/CV.css/—Pngtree—red flowing background brown wallpaper_2071900.jpg");
+    align-items:left;
+    color :rgb(232, 61, 18);
+    margin: 10px;
+    padding: 100px;
+
+}
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 400%;
+    text-align:left ;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 200%;
+    text-align:right;
+}
+
+.home_about{
+    margin-right: 10px;
+  
+    
+}
+.contact-item :hover {
+    align-items:center;
+    margin-bottom: 10px;
+    color: aliceblue;
+    transform: scale3d();
+    
+}
+.contact-item i:hover {
+    margin-right: 10px;
+    color:aliceblue;
+    transform: scale3d();
+    
+}
+
+.contact-item span:hover {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    color: aliceblue;
+    transition: color 0.3s;
+    transform: scale3d();
+}
+
+
+
+
+  
